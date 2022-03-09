@@ -1,0 +1,44 @@
+.wp-block-separator {
+  margin-left: auto;
+  margin-right: auto;
+
+  &.wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+    border-bottom: 1px solid rgba(11, 31, 17, 0.25);
+    margin: 40px auto;
+    max-width: calc(648px - 1.5rem);
+  }
+
+  &.is-style-wide {
+    border-bottom-width: 1px;
+  }
+
+  &.is-style-dots {
+    background: none !important;
+    border: none;
+    text-align: center;
+    max-width: none;
+    line-height: 1;
+    height: auto;
+
+    &:before {
+      content: "···";
+      color: currentColor;
+      font-size: 1.5em;
+      letter-spacing: 2em;
+      padding-left: 2em;
+      font-family: serif;
+    }
+
+    &:after {
+      content: "";
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border-radius: 2px;
+      box-shadow: 0 0 0 2px transparent;
+    }
+  }
+}

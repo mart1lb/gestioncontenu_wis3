@@ -1,0 +1,14 @@
+$gutenberg-font-sizes: (
+        'small': 13px,
+        'normal': 16px,
+        'medium': 20px,
+        'large': 36px,
+        'huge': 48px,
+);
+
+@each $name, $size in $gutenberg-font-sizes {
+
+  .has-#{$name}-font-size {
+    font-size: $size;
+  }
+}

@@ -1,0 +1,27 @@
+.wp-block-group {
+
+  &.has-background {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &.alignfull {
+    max-width: none;
+
+    & .wp-block-group__inner-container {
+
+      & > * {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      & > *:not(.alignwide):not(.alignfull) {
+        max-width: 1600px;
+      }
+
+      & > .alignwide {
+        max-width: 1800px;
+      }
+    }
+  }
+}

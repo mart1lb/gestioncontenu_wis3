@@ -1,0 +1,20 @@
+// Default
+@import "gutenberg/align";
+@import "gutenberg/colors";
+@import "gutenberg/editor";
+@import "gutenberg/fonts";
+
+// Blocks
+@import "gutenberg/blocks/blockquote";
+@import "gutenberg/blocks/button";
+@import "gutenberg/blocks/group";
+@import "gutenberg/blocks/heading";
+@import "gutenberg/blocks/image";
+@import "gutenberg/blocks/list";
+@import "gutenberg/blocks/pullquote";
+@import "gutenberg/blocks/separator";
+@import "gutenberg/blocks/table";
+@import "gutenberg/blocks/verse";
+
+// Custom Blocks
+@import "blocks";

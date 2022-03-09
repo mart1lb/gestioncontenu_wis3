@@ -1,0 +1,17 @@
+$gutenberg-colors: (
+        'white': '#ffffff',
+        'black': '#000000',
+        'primary': $primary,
+        'secondary': $secondary,
+);
+
+@each $name, $color in $gutenberg-colors {
+
+  .has-#{$name}-color {
+    color: $color;
+  }
+
+  .has-#{$name}-background-color {
+    background-color: $color;
+  }
+}

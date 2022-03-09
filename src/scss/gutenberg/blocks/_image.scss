@@ -1,0 +1,28 @@
+.wp-block-image {
+  margin-top: $paragraph-margin-bottom;
+  margin-bottom: $paragraph-margin-bottom;
+
+  img {
+    height: auto;
+  }
+
+  figcaption {
+    text-align: left;
+    line-height: 21px;
+    font-size: 0.875rem;
+  }
+
+  &.aligncenter {
+    margin: auto;
+    text-align: center;
+
+    img {
+      display: block;
+      margin: auto;
+    }
+
+    figcaption {
+      text-align: center;
+    }
+  }
+}

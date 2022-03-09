@@ -1,0 +1,9 @@
+.entry-content,
+.block-editor-block-list__layout {
+
+  & > ul,
+  & > ol {
+    padding-left: 30px !important;
+    margin-bottom: $paragraph-margin-bottom !important;
+  }
+}

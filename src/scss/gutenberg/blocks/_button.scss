@@ -1,0 +1,120 @@
+.wp-block-buttons {
+  margin-top: 25px;
+
+  .wp-block-button {
+
+    .wp-block-button__link {
+      font-family: $btn-font-family;
+      font-weight: $btn-font-weight;
+      line-height: $btn-line-height;
+      text-decoration: if($link-decoration == none, null, none);
+      white-space: $btn-white-space;
+      vertical-align: middle;
+      cursor: if($enable-button-pointers, pointer, null);
+      user-select: none;
+      @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-border-radius);
+      @include transition($btn-transition);
+
+      color: $body-color;
+      border: $btn-border-width solid $secondary;
+      background-color: $secondary;
+
+      &:focus {
+        outline: 0;
+        box-shadow: $btn-focus-box-shadow;
+      }
+
+      &:hover {
+        transition: $transition-base;
+      }
+    }
+
+    &.is-style-fill .wp-block-button__link {
+      color: #fff;
+      border: $btn-border-width solid $secondary;
+      background-color: $secondary;
+
+      &:hover {
+        background-color: rgba($secondary, 0.7);
+        border-color: rgba($secondary, 0.7);
+      }
+    }
+
+    &.is-style-outline .wp-block-button__link {
+      color: $body-color;
+      background-color: transparent;
+      border-color: $secondary;
+
+      &:hover {
+        background-color: $secondary;
+        color: #fff;
+      }
+    }
+
+    /*---------------*/
+
+    &.is-style-primary .wp-block-button__link {
+      color: #fff;
+      background-color: $primary;
+      border-color: $primary;
+
+      &:hover {
+        background-color: rgba($primary, 0.7);
+        border-color: rgba($primary, 0.7);
+      }
+    }
+
+    &.is-style-outline-primary .wp-block-button__link {
+      color: $body-color;
+      background-color: transparent;
+      border-color: $primary;
+
+      &:hover {
+        background-color: $primary;
+        color: #fff;
+      }
+    }
+
+    &.is-style-secondary .wp-block-button__link {
+      color: #fff;
+      background-color: $secondary;
+      border-color: $secondary;
+
+      &:hover {
+        background-color: rgba($secondary, 0.7);
+      }
+    }
+
+    &.is-style-outline-secondary .wp-block-button__link {
+      color: $body-color;
+      background-color: transparent;
+      border-color: $secondary;
+
+      &:hover {
+        background-color: $secondary;
+        color: #fff;
+      }
+    }
+
+    &.is-style-white .wp-block-button__link {
+      color: $body-color;
+      background-color: #fff;
+      border-color: #fff;
+
+      &:hover {
+        background-color: rgba(#fff, 0.7);
+      }
+    }
+
+    &.is-style-outline-white .wp-block-button__link {
+      color: #fff;
+      background-color: transparent;
+      border-color: #fff;
+
+      &:hover {
+        background-color: #fff;
+        color: $body-color;
+      }
+    }
+  }
+}
