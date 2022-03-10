@@ -1,6 +1,5 @@
 <?php
 
-
 function lazuli_custom_post_types() {
 	$cpt1 = array(
 		'labels'              => array(
