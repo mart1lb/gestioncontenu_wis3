@@ -1,0 +1,144 @@
+{
+    "key": "group_6229dc2a64779",
+    "title": "Etablissements",
+    "fields": [
+        {
+            "key": "field_6229dc4cae891",
+            "label": "Ville",
+            "name": "ville",
+            "type": "text",
+            "instructions": "saisissez la ville de l'établissement",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Paris",
+            "prepend": "",
+            "append": "",
+            "maxlength": 49
+        },
+        {
+            "key": "field_6229dc95ae892",
+            "label": "Adresse",
+            "name": "adresse",
+            "type": "text",
+            "instructions": "Saisissez la rue et le numéro de rue",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "4 rue du moulin",
+            "prepend": "",
+            "append": "",
+            "maxlength": 50
+        },
+        {
+            "key": "field_6229dcddae893",
+            "label": "Horaires",
+            "name": "horaires",
+            "type": "text",
+            "instructions": "Décrivez vos horaires d'ouverture",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Lundi : 8h00-16h00",
+            "prepend": "",
+            "append": "",
+            "maxlength": 50
+        },
+        {
+            "key": "field_6229dd9f21199",
+            "label": "Date de création de la boutique",
+            "name": "date_de_creation_de_la_boutique_",
+            "type": "date_picker",
+            "instructions": "Saisissez la date de l'ouverture de votre boutique",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "d\/m\/Y",
+            "return_format": "d\/m\/Y",
+            "first_day": 1
+        },
+        {
+            "key": "field_6229de4c2119a",
+            "label": "Photo",
+            "name": "photo",
+            "type": "image",
+            "instructions": "Photo de l'établissement qui sera affiché sur votre site",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_6229df4b6f6ce",
+            "label": "Téléphone",
+            "name": "telephone",
+            "type": "number",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "0625897456",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1646911507
+}

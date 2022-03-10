@@ -1,0 +1,156 @@
+{
+    "key": "group_6229e1ab97133",
+    "title": "Fiche de poste",
+    "fields": [
+        {
+            "key": "field_6229e1f961b72",
+            "label": "Poste à pourvoir",
+            "name": "poste_a_pourvoir",
+            "type": "text",
+            "instructions": "Indiquez l'emploi à pourvoir",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Chasseur de fantôme - Senior",
+            "prepend": "",
+            "append": "",
+            "maxlength": 50
+        },
+        {
+            "key": "field_6229e28161b73",
+            "label": "Date de publication",
+            "name": "date_de_publication",
+            "type": "date_time_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "d\/m\/Y g:i a",
+            "return_format": "d\/m\/Y g:i a",
+            "first_day": 1
+        },
+        {
+            "key": "field_6229e2c961b74",
+            "label": "Salaire",
+            "name": "salaire",
+            "type": "text",
+            "instructions": "Indiquez le salaire du poste",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "55 000€ \/ an",
+            "prepend": "",
+            "append": "",
+            "maxlength": 10
+        },
+        {
+            "key": "field_6229e34c61b75",
+            "label": "Description du poste",
+            "name": "description_du_poste",
+            "type": "text",
+            "instructions": "Faites une description du poste",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Recherche un chasseur de fantôme senior...",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6229e3d661b76",
+            "label": "Ardesse mail",
+            "name": "mail",
+            "type": "text",
+            "instructions": "Indiquez votre adresse mail",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "contact@sosfantome.fr",
+            "prepend": "",
+            "append": "",
+            "maxlength": 50
+        },
+        {
+            "key": "field_6229e48161b77",
+            "label": "Numéro de téléphone",
+            "name": "numero_de_telephone",
+            "type": "text",
+            "instructions": "Indiquez votre numéro de téléphone",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "2 51 00 00 00",
+            "prepend": "(+33)",
+            "append": "",
+            "maxlength": 9
+        },
+        {
+            "key": "field_6229e4ea61b78",
+            "label": "Adresse",
+            "name": "adresse",
+            "type": "text",
+            "instructions": "Indiquez l'adresse",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Nantes (44)",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "recrutement"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1646912901
+}
